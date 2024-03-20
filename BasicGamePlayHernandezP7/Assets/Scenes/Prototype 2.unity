@@ -318,9 +318,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   horizontalInput: 0
-  speed: 10
+  speed: 30
   xRange: 10
   projectilePrefab: {fileID: 8027268732696228459, guid: 766a8b7ef27df6c4390f0b66b99993b9, type: 3}
+  zMin: -1.5
+  zMax: 15.5
+  verticalInput: 0
 --- !u!1 &475985833
 GameObject:
   m_ObjectHideFlags: 0
@@ -807,7 +810,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4986712754851557134, guid: 5141478753c64b7468de0b0152112fb2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 12
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4986712754851557134, guid: 5141478753c64b7468de0b0152112fb2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -921,7 +924,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5034263699361280902, guid: 8e86d49cf8634cf4290f3e3d7ff94efe, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 12
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 5034263699361280902, guid: 8e86d49cf8634cf4290f3e3d7ff94efe, type: 3}
       propertyPath: m_LocalRotation.w
@@ -978,7 +981,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6180318445669556094, guid: 7a4fe5cae649d7e47af890928e59f2bc, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 12
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 6180318445669556094, guid: 7a4fe5cae649d7e47af890928e59f2bc, type: 3}
       propertyPath: m_LocalRotation.w
